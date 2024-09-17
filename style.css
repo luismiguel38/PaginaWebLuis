@@ -1,0 +1,31 @@
+body{
+    background:  rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "Nerko One", cursive;
+}
+header{
+    border-bottom: solid 2px whitesmoke;
+    padding: 20px;
+    font-size: 50px;
+} 
+section{
+    display: flex;
+    background: rgb(0, 247, 255);
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.titulo-video{
+    margin-right: 5%;
+}
+.fila-video{
+    dispLay: flex;
+    overflow-x: auto;
+    gap: 20px;
+    height: 200px;
+}
+.fila{
+    padding-left: 30px;
+    padding-right: 30px;
+}
